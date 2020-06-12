@@ -33,7 +33,7 @@
 }
 
 .rectangle {
-	width: 640px;
+	width: 100%;
 	background-color: black;
 	height: 18px;
 	margin-top: 166.5px;

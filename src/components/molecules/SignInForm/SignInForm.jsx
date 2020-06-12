@@ -27,7 +27,7 @@ const SignInForm = ({ onSubmit, disabled, emailOnchange, passwordOnchange, valid
 					required={true}
 					onChange={passwordOnchange}
 					valid={validPassword}
-					errormsg="Password must be a combination of letters and numbers only, and must be at least 8 characters"
+					errormsg="Password must be a combination of letters and numbers, and must be at least 8 characters"
 				/>
 				<Input type="submit" value="Sign in" disabled={disabled} />
 			</form>

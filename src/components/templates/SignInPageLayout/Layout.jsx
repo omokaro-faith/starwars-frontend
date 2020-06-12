@@ -24,7 +24,7 @@ const Layout = () => {
 	};
 
 	const passwordOnchange = (e) => {
-		let regex = /^(?=.*\d)(?=.*[a-z-A-Z])\w{8,}$/;
+		let regex = /^(?=.*\d)(?=.*[a-z-A-Z]).{8,}$/;
 		setValidPassword(regex.test(e.target.value));
 	};
 
