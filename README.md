@@ -2,6 +2,10 @@
 
 This is an Application that displays information API's from [Swapi Dev](https://swapi.dev/documentation) .
 
+### Deployed URL
+
+[https://starwars-max.herokuapp.com/](https://starwars-max.herokuapp.com/)
+
 ---
 
 ### Prerequisites
