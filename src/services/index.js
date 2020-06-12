@@ -1,8 +1,9 @@
 import axios from 'axios';
+import config from './config';
 
 const requestFilms = async (url) => {
 	try {
-		const parsedElement = await axios.get(`https://swapi.dev/api/films/`);
+		const parsedElement = await axios.get(`${config.baseUrl}/films/`);
 		return parsedElement.data;
 	} catch (err) {
 		return;
@@ -11,7 +12,7 @@ const requestFilms = async (url) => {
 
 const requestPeople = async (url) => {
 	try {
-		const parsedElement = await axios.get(`https://swapi.dev/api/people/`);
+		const parsedElement = await axios.get(`${config.baseUrl}/people/`);
 		return parsedElement.data;
 	} catch (err) {
 		return;
@@ -20,7 +21,7 @@ const requestPeople = async (url) => {
 
 const requestPlanets = async (url) => {
 	try {
-		const parsedElement = await axios.get(`https://swapi.dev/api/planets/`);
+		const parsedElement = await axios.get(`${config.baseUrl}/planets/`);
 		return parsedElement.data;
 	} catch (err) {
 		return;
@@ -29,7 +30,7 @@ const requestPlanets = async (url) => {
 
 const requestSpecies = async (url) => {
 	try {
-		const parsedElement = await axios.get(`https://swapi.dev/api/species/`);
+		const parsedElement = await axios.get(`${config.baseUrl}/species/`);
 		return parsedElement.data;
 	} catch (err) {
 		return;
@@ -38,7 +39,7 @@ const requestSpecies = async (url) => {
 
 const requestStarships = async (url) => {
 	try {
-		const parsedElement = await axios.get(`https://swapi.dev/api/starships/`);
+		const parsedElement = await axios.get(`${config.baseUrl}/starships/`);
 		return parsedElement.data;
 	} catch (err) {
 		return;
@@ -47,7 +48,7 @@ const requestStarships = async (url) => {
 
 const requestVehicles = async (url) => {
 	try {
-		const parsedElement = await axios.get(`https://swapi.dev/api/vehicles/`);
+		const parsedElement = await axios.get(`${config.baseUrl}vehicles/`);
 		return parsedElement.data;
 	} catch (err) {
 		return;
