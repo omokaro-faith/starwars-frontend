@@ -48,7 +48,7 @@ const requestStarships = async (url) => {
 
 const requestVehicles = async (url) => {
 	try {
-		const parsedElement = await axios.get(`${config.baseUrl}vehicles/`);
+		const parsedElement = await axios.get(`${config.baseUrl}/vehicles/`);
 		return parsedElement.data;
 	} catch (err) {
 		return;
