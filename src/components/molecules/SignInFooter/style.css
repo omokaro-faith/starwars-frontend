@@ -1,0 +1,23 @@
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding: 0px 25px;
+	margin-top: 185.5px;
+	cursor: pointer;
+}
+
+.footer > :first-child {
+	width: 66%;
+}
+
+.footer > :nth-child(2) {
+	width: 20%;
+}
+
+.footer p {
+	font-size: 12px;
+	color: #859bbcf5;
+	text-align: left;
+	font-family: sans-serif;
+}

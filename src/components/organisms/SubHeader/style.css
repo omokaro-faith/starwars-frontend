@@ -1,0 +1,16 @@
+.subheader__flexwrapper {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row-reverse;
+	padding: 10px 30px 10px 10px;
+}
+
+.subheader__flexwrapper .custom-select:nth-child(2) {
+	margin-right: 20px;
+}
+
+.subheader__searchwrapper {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 20px 10px 10px;
+}

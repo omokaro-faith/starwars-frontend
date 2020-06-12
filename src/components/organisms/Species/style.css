@@ -1,0 +1,65 @@
+.speciestable__section {
+	background: #ffffff;
+	width: 100%;
+	text-transform: capitalize;
+}
+
+.speciestable__scroll {
+	display: block;
+	empty-cells: show;
+	border-spacing: 0;
+}
+
+.speciestable__scroll thead {
+	position: relative;
+	display: block;
+	width: 100%;
+	overflow-y: scroll;
+	color: rgba(163, 171, 183, 1);
+	white-space: nowrap;
+	border-bottom: 1px solid rgba(112, 112, 112, 0.18);
+	margin-bottom: 1rem;
+}
+
+.speciestable__scroll tbody {
+	display: block;
+	position: relative;
+	width: 100%;
+	overflow-y: scroll;
+	color: rgba(44, 44, 44, 1);
+}
+
+.speciestable__scroll tr {
+	width: 100%;
+	display: flex;
+	font-size: 14px;
+}
+
+.speciestable__scroll td,
+.speciestable__scroll th,
+.speciestable__scroll {
+	display: block;
+	padding: 1rem;
+	text-align: left;
+	flex-basis: 100%;
+	flex-grow: 2;
+}
+
+.speciestable__scroll th:first-child {
+	position: relative;
+	left: 38px;
+}
+
+.body-half-screen {
+	max-height: 100vh;
+}
+
+.firstrow__square {
+	width: 16px;
+	height: 15px;
+	border-radius: 2px;
+	background: rgba(221, 219, 219, 1) 0% 0% no-repeat padding-box;
+	border: 1px solid rgba(221, 219, 219, 1);
+	border-radius: 2px;
+	margin-right: 20px;
+}

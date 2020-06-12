@@ -1,0 +1,24 @@
+import React, { lazy, Suspense } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import './style.css';
+const SignIn = lazy(() => import('../components/pages/SignIn/SignIn'));
+const Starwars = lazy(() => import('../components/pages/Starwars/Starwars'));
+
+function AppRoute() {
+	return (
+		<BrowserRouter>
+			<div>
+				<Suspense fallback={<div className="loader" />}>
+					<Switch>
+						<Route path="/" component={SignIn} exact />
+						<Route path="/starwars/:id" component={Starwars} />
+						<Route path="/starwars" component={Starwars} />
+					</Switch>
+				</Suspense>
+			</div>
+		</BrowserRouter>
+	);
+}
+
+export default AppRoute;

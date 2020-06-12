@@ -1,0 +1,50 @@
+.display__error {
+	border: solid 1px red !important;
+}
+
+input[type='email'],
+input[type='password'] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	height: 48px;
+}
+
+input[type='submit'] {
+	width: 100%;
+	background: #1f1f21 0% 0% no-repeat padding-box;
+	opacity: 1;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	height: 48px;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-top: 35px;
+}
+
+input[type='email'] {
+	margin-bottom: 16px;
+}
+
+input:disabled {
+	background: whitesmoke 0% 0% no-repeat padding-box;
+	color: #1f1f21;
+}
+
+.error__text {
+	font-size: 12px;
+	position: relative;
+	bottom: 12px;
+	left: 4px;
+	color: red;
+	white-space: nowrap;
+}

@@ -1,0 +1,98 @@
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 17.5%;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border: 0.4000000059604645px solid #dbe3ee;
+	opacity: 1;
+}
+
+.sidebar a {
+	display: block;
+	padding: 25px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: inherit;
+	color: rgba(163, 171, 183, 1);
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.dashboard__logo {
+	top: 36px;
+	left: 31px;
+	width: 80%;
+	height: 66px;
+	background: transparent url('../../../assets/logo.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
+	margin: 36px auto;
+}
+
+.dashboard__icon {
+	background: transparent url('../../../assets/dashboard-grey.png') 0% 0% no-repeat padding-box;
+	width: 40px;
+	height: 20px;
+	display: inline-block;
+}
+
+.dashboard__icon ~ span {
+	position: relative;
+	top: -3px;
+}
+
+.building__icon {
+	background: transparent url('../../../assets/building-grey.png') 0% 0% no-repeat padding-box;
+	width: 40px;
+	height: 20px;
+	display: inline-block;
+}
+
+.building__icon ~ span {
+	position: relative;
+	top: -3px;
+}
+
+.shoppingbasket__icon {
+	background: transparent url('../../../assets/shopping-basket.png') 0% 0% no-repeat padding-box;
+	width: 40px;
+	height: 20px;
+	display: inline-block;
+}
+
+.shoppingbasket__icon ~ span {
+	position: relative;
+	top: -3px;
+}
+
+.menu__icon {
+	background: transparent url('../../../assets/menu.png') 0% 0% no-repeat padding-box;
+	width: 40px;
+	height: 20px;
+	display: inline-block;
+}
+
+.menu__icon ~ span {
+	position: relative;
+	top: -3px;
+}
+
+.nav__items {
+	width: 94%;
+	margin: auto;
+}
+
+.unkwown__icon {
+	background: #a3abb7 0% 0% no-repeat padding-box;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 18px;
+}
+
+.unkwown__icon ~ span {
+	position: relative;
+	top: -3px;
+}

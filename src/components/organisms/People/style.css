@@ -1,0 +1,66 @@
+.peopletable__section {
+	background: #ffffff;
+	width: 100%;
+	text-transform: capitalize;
+}
+
+.peopletable__scroll {
+	display: block;
+	empty-cells: show;
+	border-spacing: 0;
+}
+
+.peopletable__scroll thead {
+	position: relative;
+	display: block;
+	width: 100%;
+	overflow-y: scroll;
+	color: rgba(163, 171, 183, 1);
+	border-bottom: 1px solid rgba(112, 112, 112, 0.18);
+	margin-bottom: 1rem;
+}
+
+.peopletable__scroll tbody {
+	display: block;
+	position: relative;
+	width: 100%;
+	overflow-y: scroll;
+	color: rgba(44, 44, 44, 1);
+}
+
+.peopletable__scroll tr {
+	width: 100%;
+	display: flex;
+	font-size: 14px;
+}
+
+.peopletable__scroll td,
+.peopletable__scroll th,
+.peopletable__scroll {
+	display: block;
+	padding: 1rem;
+	text-align: left;
+	flex-basis: 100%;
+	flex-grow: 2;
+}
+
+.peopletable__scroll th:first-child,
+.peopletable__scroll th:nth-child(9),
+.peopletable__scroll td:first-child,
+.peopletable__scroll td:nth-child(9) {
+	flex-basis: 300%;
+}
+
+.body-half-screen {
+	max-height: 100vh;
+}
+
+.firstrow__circle {
+	width: 40px;
+	height: 40px;
+	background: rgba(221, 219, 219, 1) 0% 0% no-repeat padding-box;
+	border: 1px solid rgba(221, 219, 219, 1);
+	border-radius: 50%;
+	margin-right: 20px;
+	margin-top: -10px;
+}
