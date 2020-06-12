@@ -85,11 +85,11 @@ const Dashboard = () => {
 												</div>
 												<div className="film__title">{item.title}</div>
 											</td>
-											<td>{item.director || constants.EMDASH}</td>
-											<td>{item.producer || constants.EMDASH}</td>
-											<td>{item.release_date || constants.EMDASH}</td>
-											<td>{item.episode_id || constants.EMDASH}</td>
-											<td className="text__green">{item.url || constants.EMDASH}</td>
+											<td>{item.director}</td>
+											<td>{item.producer}</td>
+											<td>{item.release_date}</td>
+											<td>{item.episode_id}</td>
+											<td className="text__green">{item.url}</td>
 										</tr>
 									);
 								})}

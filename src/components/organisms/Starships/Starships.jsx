@@ -1,7 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import './style.css';
-import constants from '../../../constants';
 
 const Starships = () => {
 	const starships = useSelector((state) => state.starshipsData.data);
@@ -26,17 +25,17 @@ const Starships = () => {
 								<tr key={item.name + item.cost_in_credits}>
 									<td>
 										<div className="firstrow__square" />
-										<div>{item.name || constants.EMDASH}</div>
+										<div>{item.name}</div>
 									</td>
-									<td>{item.model || constants.EMDASH}</td>
-									<td>{item.starship_class || constants.EMDASH}</td>
+									<td>{item.model}</td>
+									<td>{item.starship_class}</td>
 									<td className="purple__text">
 										{item.cost_in_credits}
 										{item.cost_in_credits !== 'unknown' && ' GC'}
 									</td>
-									<td>{item.passengers || constants.EMDASH}</td>
-									<td>{item.length || constants.EMDASH}</td>
-									<td>{item.crew || constants.EMDASH}</td>
+									<td>{item.passengers}</td>
+									<td>{item.length}</td>
+									<td>{item.crew}</td>
 								</tr>
 							);
 						})}
