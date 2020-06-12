@@ -33,7 +33,7 @@ Application was developed using:
 -   Install [yarn](https://yarnpkg.com/en/docs/install)
 -   Navigate to a directory within your terminal
 -   Clone the project from repository
--   Using HTTP; \$ git clone [https://github.com/omokaro-faith/starwars-frontend-assignment.git](https://github.com/omokaro-faith/starwars-frontend-assignment.git)
+-   Using SSH; \$ git clone [git@github.com:omokaro-faith/starwars-frontend-assignment.git](git@github.com:omokaro-faith/starwars-frontend-assignment.git)
 -   Navigate to the root directory e.g \$ cd starwars
 -   Run `yarn install`. This installs all the app's dependencies.
 -   Run `yarn start` to start the application
